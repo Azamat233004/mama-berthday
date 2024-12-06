@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>С Днём Рождения, Мама!</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- Аудио -->
+<audio id="background-music" loop>
+    <source src="./styles/deti-online.com_-_happy-birthday-to-you-veselaya.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает элемент <code>audio</code>.
+  </audio>
+  
+  <!-- Кнопки для управления -->
+  <div id="music-controls">
+    <h2>Обязательно нажмите на кнопку включить перед смотром сайта !</h2>
+    <label for="play-music" class="control-button">Включить музыку</label>
+    <input type="radio" name="music-control" id="play-music" onclick="document.getElementById('background-music').play()">
+    
+    <label for="pause-music" class="control-button">Остановить музыку</label>
+    <input type="radio" name="music-control" id="pause-music" onclick="document.getElementById('background-music').pause()">
+  </div>
+  <header>
+    <h1>С Днём Рождения, Мама!</h1>
+    <p>Вы — мое вдохновение и счастье ❤</p>
+  </header>
+  <main>
+    <section id="gallery">
+      <h2>Наши тёплые воспоминания</h2>
+      <img src="./styles/Изображение WhatsApp 2024-12-06 в 15.00.07_96091faf.jpg" alt="Семейное фото 1" > 
+      <img src="./styles/Изображение WhatsApp 2024-12-06 в 15.00.38_7dec02a0.jpg" alt="Семейное фото 2" >
+    </section>
+    <section id="reasons">
+      <h2>Почему вы для меня лучшая:</h2>
+      <ul>
+        <li>Вы самая заботливая</li>
+        <li>Вы всегда помогаете мне</li>
+        <li>Вы готовите вкуснее всех</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>Я вас очень люблю! 🥰</p>
+  </footer>
+  <!-- Новый блок: Цитата -->
+  <section id="quote">
+    <h2>Слова, которые описывают вас:</h2>
+    <blockquote>
+      "Мама — это не просто слово, это целый мир, наполненный теплом, заботой и любовью."
+    </blockquote>
+  </section>
+
+  <!-- Новый блок: Видео -->
+  <section id="video">
+    <h2>Моё поздравление</h2>
+    <video controls>
+      <source src="./styles/Видео WhatsApp 2024-12-06 в 15.25.15_cf4fc650.mp4" type="video/mp4" >
+      Ваш браузер не поддерживает видео.
+    </video>
+  </section>
+
+  
+  <!-- Новый блок: Пожелания -->
+<section id="wishes">
+    <h2>Мои пожелания для вас:</h2>
+    <ul>
+      <li>Здоровья и долгих лет!</li>
+      <li>Чтобы каждый день приносил радость и счастье!</li>
+      <li>Чтоб ваши мечты сбывались!</li>
+      <li>Чтоб каждый момент был полон любви и тепла!</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Я вас очень очень и очень сильно люблю люблю! 🥰</p>
+</footer>
+</body>
+</html>
